@@ -16,7 +16,7 @@
   } ],
   "main": "postmessage",
   "volo": {
-    "x-dependencies": {
+    "dependencies": {
       "anchor": "anchorjs/anchor"
     }
   }
