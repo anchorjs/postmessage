@@ -1,0 +1,23 @@
+{
+  "name": "postmessage",
+  "version": "0.0.0",
+  "description": "window.postMessage module for Anchor.js.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/anchorjs/postmessage.git"
+  },
+  "bugs": {
+    "url": "http://github.com/anchorjs/postmessage/issues"
+  },
+  "author": { "name": "Jared Hanson", "email": "jaredhanson@gmail.com", "url": "http://www.jaredhanson.net/" },
+  "licenses": [ {
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/MIT" 
+  } ],
+  "main": "main",
+  "volo": {
+    "x-dependencies": {
+      "anchor": "anchorjs/anchor"
+    }
+  }
+}
