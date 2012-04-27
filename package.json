@@ -14,7 +14,7 @@
     "type": "MIT",
     "url": "http://www.opensource.org/licenses/MIT" 
   } ],
-  "main": "main",
+  "main": "postmessage",
   "volo": {
     "x-dependencies": {
       "anchor": "anchorjs/anchor"
