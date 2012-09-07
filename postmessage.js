@@ -1,6 +1,7 @@
-define(['class',
-        'events'],
-function(clazz, events) {
+define(['exports', 'module',
+        'events',
+        'class'],
+function(exports, module, Emitter, clazz) {
   
   function send(data, origin, win) {
     if (!win) {
@@ -28,9 +29,9 @@ function(clazz, events) {
   
   
   function Listener() {
-    events.EventEmitter.call(this);
+    Emitter.call(this);
   }
-  clazz.inherits(Listener, events.EventEmitter);
+  clazz.inherits(Listener, Emitter);
   
   Listener.prototype.listen = function() {
     if (this._fn) return;
@@ -50,10 +51,8 @@ function(clazz, events) {
   }
   
   
-  var exports = {}
+  exports = module.exports = send;
   exports.send = send;
   exports.createListener = createListener;
   exports.Listener = Listener;
-  
-  return exports;
 });
