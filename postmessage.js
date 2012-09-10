@@ -15,9 +15,7 @@ function(exports, module, Emitter, clazz) {
         }
       }
     }
-    
-    // TODO: If window is undefined, emit an error.
-    // TODO: If postMessage is not available, emit an error.
+    if (!win) throw new Error('Unable to post message to "' + origin + '". No frame found.');
     win.postMessage(data, origin);
   }
   
