@@ -6,7 +6,7 @@ require.config({
     'chai': 'chai/chai'
   },
   packages: [
-    { name: 'class', location: '../../../..', main: 'class' },
+    { name: 'postmessage', location: '../../../..', main: 'postmessage' },
     { name: 'events' }
   ],
   shim: {
