@@ -1,7 +1,5 @@
-define(['postmessage/postmessage',
-        'chai'],
-function(postmessage, chai) {
-  var expect = chai.expect;
+define(['postmessage/postmessage'],
+function(postmessage) {
 
   describe("postmessage", function() {
     
