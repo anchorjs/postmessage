@@ -1,7 +1,7 @@
 {
   "name": "postmessage",
   "version": "0.0.0",
-  "description": "postMessage module for Anchor.js.",
+  "description": "Cross document messaging using postMessage.",
   "repository": {
     "type": "git",
     "url": "git://github.com/anchorjs/postmessage.git"
